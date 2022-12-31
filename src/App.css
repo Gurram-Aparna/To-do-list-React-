@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.todoContainer {
+  max-width: 700px!important;
+  height: 400px;
+  background-color: #0f3a54;
+  display: flex;
+  padding: 0!important;
+}
+
+.left-sidebar{
+  padding: 20px;
+  width: 30%;
+  box-shadow: 3px 0px 3px rgb(255,255,255);
+}
+
+.left-sidebar-contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-sidebar-contents > button {
+  margin-bottom: 15px;
+}
+
+.right-sidebar {
+  width: 70%;
+  padding: 30px;
+}
+
+.right-sidebar-contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-input {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  margin: 10px auto;
+
+}
+
+.task-input > input {
+  padding-left: 20px;
+  font-size: 15px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.task-input > button {
+  border-radius: 50%;
+  width: 40px;
+  height: 35px;
+}
+
+.task-lists {
+  width: 100%;
+}
+
+.taskDiv {
+  background-color: white;
+  margin-bottom: 8px;
+}
+
+.modalWindow {
+  background-color: white;
+  color: black;
+  width: 100%!important;
+  height: 100%;
+}
